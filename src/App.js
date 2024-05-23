@@ -13,15 +13,15 @@ const [result, setResult] = useState('')
 
 
 function getResult () {
-  const base_currency = base.current.value
-  const currencies = curency.current.value
-cur.latest({
-  base_currency,
-  currencies
-}).then(response => {
-  console.log(response.data[base_currency], val.current.value)
-  setResult(val.current.value * response.data[currencies])
-});
+//   const base_currency = base.current.value
+//   const currencies = curency.current.value
+// cur.latest({
+//   base_currency,
+//   currencies
+// }).then(response => {
+//   console.log(response.data[base_currency], val.current.value)
+//   setResult(val.current.value * response.data[currencies])
+// });
 
 }
 
